@@ -50,7 +50,7 @@ class App extends Component {
   render() {
     return (
       <Fragment>
-        <Header />]
+        <Header />
         <div className="container mb-10">
         <Tabela autores={this.state.autores} removeAutor={this.removeAutor} />
         <Form escutadorDeSubmit={this.escutadorDeSubmit} />
